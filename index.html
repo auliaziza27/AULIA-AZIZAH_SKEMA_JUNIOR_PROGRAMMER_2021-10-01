@@ -1,0 +1,62 @@
+<!--Mendeklarasikan DOCTYPE-->
+<!DOCTYPE>
+<html>
+<!--Masukkan konten ke dalam <head> tag-->
+
+<head>
+  <meta charset="utf-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<!--Tambahkan tag <div> dengan class "calculator"-->
+
+<body>
+  <div class="calculator">
+    <!--Tambahkan tag <input> dengan class "calculator-screen" dan tag <div> dengan "calculator-keys" di dalam class "calculator"-->
+    <!--Tambahkan atribut nilai dan berikan "0" dan "disabled" kepada atribut tersebut-->
+
+    <input type="text" class="calculator-screen" value="0" disabled />
+
+    <div class="calculator-keys">
+      <!--Tambahkan tag <div> dengan class "row" dan 3 tag <button> untuk row pertama di dalam class "row"-->
+      <!--Tambahkan nama class "number", "operator", "decimal", "equal-sign", "all-clear","percentage", dan "zero-btn"ke tag button-->
+      <!--Tambahkan atribut nilai ke semua tag button yang memiliki class number, "operator" dan "decimal"-->
+      <div class="row">
+        <button class="all-clear">AC</button>
+        <button class="percentage">%</button>
+        <button class="operator" value="/">&divide;</button>
+      </div>
+      <!--Tambahkan 4 tag <div> lagi dengan class "row" dan tag <button> di dalamnya-->
+      <div class="row">
+        <button class="number" value="7">7</button>
+        <button class="number" value="8">8</button>
+        <button class="number" value="9">9</button>
+        <button class="operator" value="*">&times;</button>
+      </div>
+
+      <div class="row">
+        <button class="number" value="4">4</button>
+        <button class="number" value="5">5</button>
+        <button class="number" value="6">6</button>
+        <button class="operator" value="-">-</button>
+      </div>
+
+      <div class="row">
+        <button class="number" value="1">1</button>
+        <button class="number" value="2">2</button>
+        <button class="number" value="3">3</button>
+        <button class="operator" value="+">+</button>
+      </div>
+
+      <div class="row">
+        <button class="number zero-btn" value="0">0</button>
+        <button class="decimal" value=".">.</button>
+        <button class="equal-sign">=</button>
+      </div>
+    </div>
+  </div>
+  <!--Sambungkan file HTML dan JavaScript-->
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

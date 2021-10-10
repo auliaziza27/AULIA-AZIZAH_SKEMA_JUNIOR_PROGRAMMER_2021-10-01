@@ -1,0 +1,67 @@
+Langkah-langkah yang saya lakukan untuk menguji program Kalkulator saya, sebagai berikut:
+1. Menguji kalkulator menerima input dari tombol-tombol dan menampilkannya di layar display program kalkulator
+Caranya :
+a. Klik angka 1
+b. "1" akan tampil di layar display program kalkulator
+
+Bukti screenshot : http://prntscr.com/1vj6d5r
+
+2. Program kalkulator memiliki fungsi kalkulasi berupa pengurangan, penjumlahan, perkalian dan pembagian serta memiliki angka 0 dan angka 1 sampai 9.
+Caranya :
+a. Mengecek tampilan kalkulator
+
+Bukti screenshot : http://prntscr.com/1vj8qp6
+
+3. Program kalkulator harus melakukan suatu kalkulasi setidaknya 2 angka dan satu operator, misal menampilkan hasil dari 20:2 
+Caranya :
+a. Klik angka 2 dan angka 0 menghasilkan 20
+b. Klik tanda operator pembagian
+c. Klik angka 2 
+d. Klik tanda sama dengan
+e. Akan muncul hasil kalkulasi dari 20 dibagi 2 yaitu 10
+
+Bukti screenschot : http://prntscr.com/1vj9dey
+
+4. Program kalkulator tidak boleh menampilkan angka yang diawali dengan angka nol, misal 0,78
+Caranya :
+a. Klik angka 7 dan 8
+b. Akan muncul angka 78 di layar display program kalkulator
+
+Bukti screenshot : http://prntscr.com/1vj9nx3
+
+5. Program wajib memiliki fungsi desimal yang bisa dijalankan dengan baik
+Caranya :
+a. Klik angka 0
+b. Klik tombol titik
+c. Klik angka 7
+d. Akan muncul di layar display program kalkulator 0.9
+e. Klik tombol pengurangan (-)
+f. Klik angka 0
+g. Klik tombol titik
+h. Klik angka 5
+i. Akan muncul di layar display program kalkulator 0.4
+
+Bukti screenshot muncul angka 0.7 di layar display program kalkulator : http://prntscr.com/1vjabgu
+
+Bukti screenshot muncul angka 0.5 sebagai hasil dari kalkulasi di layar display program kalkulator : http://prntscr.com/1vjang8
+
+6. Program wajib memiliki fungsi persen yang bisa dijalankan dengan baik
+Caranya :
+a. Klik angka 6
+b. Klik tombol %
+c. Akan muncul di layar display program kalkulator 0.06
+
+Bukti screenshot : http://prntscr.com/1vjb3kt
+
+7. Program kalkulator memiliki fungsi CLEAR atau AC yang dapat membersihkan riwayat kalkulasi sebelumnya
+Caranya :
+a. Klik angka 18
+b. Klik tombol operator pembagian
+c. Klik angka 3
+d. Akan muncul di layar display program kalkulator hasil kalkulasi pembagiannya yaitu 6
+
+Bukti screenshot kalkulasi : http://prntscr.com/1vjbfev
+Bukti fungsi CLEAR atau AC dapat membersihkan riwayat kalkuasi sebelumnya : http://prntscr.com/1vjbirp 
+
+8. Tampilan program kalkulator yang rapi, menarik dan mudah digunakan
+Bukti screenshot : http://prntscr.com/1vjbpuk
